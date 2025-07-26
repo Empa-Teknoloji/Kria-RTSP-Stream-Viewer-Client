@@ -1,0 +1,118 @@
+# Qt-specific
+*.pro.user
+*.pro.user.*
+*.qbs.user
+*.qbs.user.*
+*.moc
+moc_*.cpp
+moc_*.h
+qrc_*.cpp
+ui_*.h
+*.qmlc
+*.jsc
+Makefile*
+*build-*
+*.Debug
+*.Release
+
+# Qt unit tests
+target_wrapper.*
+
+# QtCreator
+*.autosave
+*.user
+
+# QtCreator Qml
+*.qmlproject.user
+*.qmlproject.user.*
+
+# Qt translation files
+*.qm
+
+# Build directories
+build/
+build_*/
+*build*
+debug/
+release/
+
+# CMake
+CMakeLists.txt.user
+CMakeCache.txt
+CMakeFiles/
+CMakeScripts/
+Testing/
+cmake_install.cmake
+install_manifest.txt
+compile_commands.json
+CTestTestfile.cmake
+_deps/
+
+# Ninja
+.ninja_deps
+.ninja_log
+
+# C++ objects and libs
+*.slo
+*.lo
+*.o
+*.a
+*.la
+*.lai
+*.so
+*.so.*
+*.dll
+*.dylib
+
+# Qt-specific
+*.prl
+.qmake.cache
+.qmake.stash
+
+# Qt unit tests
+target_wrapper.*
+
+# C++ temporaries
+*.exe
+*.app
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# Linux
+*~
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Python test files (for the test scripts)
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+env/
+venv/
+.env
+
+# Log files
+*.log
+
+# Backup files
+*.bak
+*.backup
+*~
+
+# Network config (contains sensitive info)
+network_config.h
