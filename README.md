@@ -88,7 +88,7 @@ kria/
 
 1. **Clone the repository**
    ```bash
-   git clone https://github.com/yourusername/kria.git
+   git clone https://github.com/Empa-Teknoloji/Kria-RTSP-Stream-Viewer-Client.git
    cd kria
    ```
 
